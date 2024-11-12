@@ -1,5 +1,5 @@
 package com.nit.main;
-
+import static com.nit.sum.DuplicateRemove.removeElement;
 /**
  * Hello world!
  */
@@ -10,5 +10,9 @@ public class App {
         int b = 9;
         int c = a + b;
         System.out.println(c);
+        int temp[] = {1,2,3,1,5,2,1,2};
+        
+        removeElement(temp);
+        
     }
 }
